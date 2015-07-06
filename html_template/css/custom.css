@@ -1,0 +1,645 @@
+
+
+
+.topheader{
+    height: 110px;
+    background-color: #31373c;
+    top:0px;
+    
+}
+
+.logo{
+    float: right;
+    display: inline;
+    margin-top: 18px;
+}
+.citylogo{
+    
+    display: inline;
+    margin-right: 70px;
+    
+    
+}
+.parklogo{
+        
+    display: inline;
+    
+}
+.linkbar{
+    height: 54px;
+    background-color: #42484f;
+    padding-top: 18px;
+}
+
+.linkbar>ul{
+    float: right;
+    margin-right: 15px;
+
+}
+.linkbar>ul li{
+    display: inline;
+
+}
+
+.linkbar>ul li a {
+
+    font-size: 16px;
+    font-family: "Museo Sans";
+    
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.linkbar>ul li a.menu-link{
+    color: rgb(255, 255, 255);
+    padding-right:10px;
+    padding-left:10px;
+    border-right: 1px solid white;
+}
+.linkbar>ul li a.menu-link:hover{
+   color:gray;
+}
+
+.linkbar>ul li a.menu-link-extra{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-left:10px;
+    color:#dfb625;
+}
+
+.linkbar>ul li a.menu-link-extra:hover{
+    
+   color:#ae8f23;
+}
+
+.footer-menu{
+height: 54px;
+    background-color: #42484f;
+    padding:0px;
+    padding-bottom: 10px;
+    
+}
+.footer-menu .linkbar ul{
+    margin-left: 0px;
+
+}
+
+.top-subscribebar-panel{
+    height: 73px;
+    width: 100%;
+    background-color: #dee1e3;
+    border-top:2px solid #868b8f;
+    padding-top: 15px;
+    
+}
+
+.top-subscribebar{
+    
+    float: right;
+    margin-right: 20px;
+}
+
+.bottom-subscribebar-panel{
+    height: 150px;
+    width: 100%;
+    background-color: #dee1e3;
+    padding-top: 35px;
+    margin-top: 70px;
+    
+}
+
+.bottom-subscribebar{
+    
+   width: 600px;
+   margin: auto;
+}
+
+ .btncontainer{
+   display: inline;
+ }
+
+ .btncontainer .signupbtn{
+    
+    display: inline;
+    height: 35px;
+    width: 208px;
+    font-size: 25px;
+    background: #6fbd44;
+    font-family: "League Gothic";
+    padding: 5px 10px 5px 10px;
+    margin: auto;
+    
+    
+}
+
+
+
+
+.btncontainer .signupbtn span{
+    
+    font-size: 20px;
+    font-family: "League Gothic";
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    color: rgb(242, 249, 252);
+    text-transform: uppercase;
+    
+    
+}
+
+ .btncontainer .newsletterbtn{
+    
+    position: relative;
+    left:5px;
+    display: inline;
+    height: 35px;
+    width: 250px;
+    font-size: 25px;
+    background: #31373c;
+    font-family: "League Gothic";
+    padding: 5px 10px 5px 10px;
+    margin: auto;
+    
+    
+}
+
+.btncontainer .newsletterbtn span{
+    
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    font-family: "League Gothic";
+    color: rgb(242, 249, 252);
+    text-transform: uppercase;
+    
+    
+}
+
+.subscribe-form{
+    position:relative;
+    top:-3px;
+    display: inline;
+    margin-left: 2px;
+    
+}
+
+.subscribe-form form{
+    display: inline;
+}
+
+
+.subscribe-form form input[type=text] {
+
+    position: relative;
+    
+    height: 40px;
+    border-top: 2px solid #5c6266;
+    border-bottom: 2px solid #5c6266;
+    border-left: 2px solid #31373c;
+    border-right: 2px solid #d3d6d9;
+    
+    width: 160px;
+    background: #dee1e3;
+    text-transform: uppercase;
+    padding:5px;
+    font-size: 15px;
+    
+    
+}
+
+
+
+.subscribe-form form input[type=submit] {
+
+    position: relative;
+    top:-1px;
+    left:-3px;
+    height: 41px;
+    display: inline;
+    margin-left: 0px;
+    border:none;
+    width: 80px;
+    border-radius: none;   
+    background: #a8a8a8;
+    padding:5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "Museo Sans";
+    color: rgb(68, 76, 84);
+ 
+    
+}
+
+
+
+.feature-panel{
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.feature-desc p{
+    margin-left: 45px;
+    font-size: 19px;
+    font-family: "Helvetica Neue";
+    color: rgb(78, 83, 92);
+    line-height: 1.421; 
+}
+.green-panel{
+   
+    background-color: #6fbd44;
+    padding:10px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    
+}
+
+
+.green-panel .header{
+    color:white;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-size: 22px;
+    font-family: "Museo Sans";
+    color: rgb(255, 255, 255);
+        
+}
+
+.green-panel .divider{
+    
+    border-top:1px solid white;
+    width:80%;
+    
+}
+
+.green-panel .description{
+font-size: 19px;
+  font-family: "Helvetica Neue";
+  color: rgb(255, 255, 255);
+    
+}
+
+.rec-park-search-form form input[type=text] {
+    
+    position: relative;
+    left:-10px;
+    margin-top: 20px;
+    height: 35px;
+    width: 60%;
+    background: #dee1e3;
+    padding:5px;
+    font-size: 15px;
+    border: none;
+    
+}
+
+
+
+
+
+.rec-park-search-form form input[type=submit] {
+    
+    position: relative;
+    top:-1px;
+    margin-top: 18px;
+    left:-15px;
+    height: 36px;
+    width: 90px;
+    background: #4a7c29;
+    padding:2px;
+    font-size: 15px;
+    
+    
+    font-family: "Museo Sans";
+   color: rgb(222, 225, 227);
+    
+}
+
+.loc-activities-search-form form select {
+    
+    position: relative;
+    left:-10px;
+    
+    margin-top: 20px;
+    height: 35px;
+    width: 100%;
+    background: #dee1e3;
+    padding:5px;
+    font-size: 15px;
+    border: none;
+    
+}
+
+
+.center{
+    margin: auto;
+    width: 669px;
+    padding: 0px;
+    
+}
+
+.menu-center{
+    margin: auto;
+    width: 950px;
+}
+
+
+.footer .subscribebar{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.footer .subscribebar .center .btn-container {
+    display: inline;
+}
+
+
+
+
+.btn-container img{
+    display: inline;
+}
+.footer-panel{
+    background-color: #31373c;
+    padding:10px;
+    
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.copy-right-statement{
+margin-top: 100px;
+    font-size: 17px;
+  font-family: "Helvetica Neue";
+  color: rgb(222, 225, 227);
+  line-height: 1.421;
+}
+.lblContact{
+    color:#6fbd44;
+    text-transform: uppercase;
+    font-size: 14pt;
+    padding: 10px;
+    padding-top: 0px;
+    
+}
+
+.contact-form input[type=text] {
+
+    height: 50px;
+    display: block;
+    margin-left: 0px;
+    border-top:2px solid;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #545556;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    
+}
+
+
+.contact-form input[type=submit] {
+
+    height: 55px;
+    margin-top: 10px;
+    display: block;
+    float: right;
+    margin-left: 0px;
+    border-top:2px solid;
+    width: 40%;
+    margin-bottom: 10px;
+    background: #6fbd44;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: "Museo Sans";
+    color: rgb(49, 55, 60);
+    
+
+}
+
+.contact-form textarea {
+
+    height: 200px;
+    display: block;
+    margin-left: 0px;
+    border:none;
+    background: #545556;
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+    
+
+}
+
+/** Sub page CSS */
+
+.image-carousel-panel{
+   
+    
+}
+.item{
+  
+    background: #fff;    
+    text-align: center;
+    height: 759px !important;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.carousel-inner{
+  position: relative;
+    top:-37px;
+    height: 759px !important;
+    
+
+}
+
+
+.carousel-indicators{
+    position: relative;
+    left:80px;
+    top:640px;
+}
+
+
+.carousel-indicators li {
+    height: 20px;
+    width: 20px;
+    margin-right:10px;
+    
+    
+}
+.carousel-indicators .active {
+    height: 20px;
+    width: 20px;
+    margin-right:10px;
+    background-color: whitesmoke;
+    
+}
+
+.caurosel-control-container .carousel-control {
+height:710px!important;
+}
+
+#imageCarousel{
+    height: 759px !important;
+    margin-bottom: 0px;
+}
+
+
+.page-title{
+    position: absolute;
+    display: inline;
+    height:76px;
+    width: 100%;
+    
+    background: rgba(68, 95, 91, 0.8);
+   
+    
+    
+    margin-top: 15px;
+    padding-top: 10px;
+    top:223px;
+    z-index: 2000!important;
+}
+
+
+
+.page-title span{
+   font-size: 31px;
+  font-family: "Museo Sans";
+  color: rgb(255, 255, 255); 
+    text-transform: uppercase;
+    
+    margin-left: 54px;
+}
+
+
+.ques-logo-container{
+  width: 150px;  
+margin: auto;
+}
+.ques-circle {
+    
+	width: 150px;
+	height: 150px;
+	background: #6fbd44;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 75px;
+    
+    
+}
+
+.ques-circle span{
+    position: relative;
+    top:2px;
+    left:48px;
+    display: inline-block;
+    font-size: 110px;
+    font-family: "Museo Sans";
+    font-weight: bold;
+    color: rgb(255, 255, 255); 
+    
+}
+
+
+.question-ans-left-panel .header {
+  font-size: 22px;
+  font-family: "Museo Sans";
+  color: rgb(111, 189, 68);
+}
+
+.question-ans-left-panel .divider {
+    border-top: 2px solid rgb(111, 189, 68);
+    width: 70%
+  
+}
+
+.question-ans-right-panel{
+    margin-top: 180px;
+    padding-left: 50px;
+}
+.Q-logo-container{
+display: inline;
+    
+}
+
+.Q-gray-circle{
+    width: 120px;
+	height: 120px;
+	background: #dee1e3 ;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 60px;
+}
+.Q-gray-circle span{
+    position: relative;
+    top:8px;
+    left:31px;
+    display: inline-block;
+    font-size: 75px;
+    font-family: "Museo Sans";
+    font-weight: bold;
+    color: #6fbd44; 
+    
+}
+
+
+.A-green-circle{
+    width: 80px;
+	height: 80px;
+	background: #6fbd44 ;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 40px;
+}
+
+
+.A-green-circle span{
+    position: relative;
+    top:2px;
+    left:22px;
+    display: inline-block;
+    font-size: 55px;
+  font-family: "Museo Sans";
+  color: rgb(222, 225, 227);
+    font-weight: bold;
+    color: #dee1e3; 
+    
+}
+.question{
+margin-top: 15px;
+}
+
+.question span {
+    font-size: 19px;
+  font-family: "Helvetica Neue";
+  color: rgb(66, 72, 79);
+}
+
+.answer{
+margin-top: 15px;
+    margin-bottom: 20px;
+}
+.answer span {
+    font-size: 19px;
+  font-family: "Helvetica Neue";
+  color: rgb(66, 72, 79);
+}
+
+.answer-container{
+
+    margin-left: 40px;
+    margin-top: 30px;
+}
