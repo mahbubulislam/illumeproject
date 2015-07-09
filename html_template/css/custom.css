@@ -1,6 +1,9 @@
 
 
-
+#content{
+    max-width: 1320px;
+    margin: auto;
+}
 .topheader{
     height: 110px;
     background-color: #31373c;
@@ -25,43 +28,43 @@
     display: inline;
     
 }
-.linkbar{
+.NavMenuBar{
     height: 54px;
     background-color: #42484f;
     padding-top: 18px;
 }
 
-.linkbar>ul{
+.NavMenuBar>ul{
     float: right;
     margin-right: 15px;
 
 }
-.linkbar>ul li{
+.NavMenuBar>ul li{
     display: inline;
 
 }
 
-.linkbar>ul li a {
+.NavMenuBar>ul li a {
 
     font-size: 16px;
-    font-family: "Museo Sans";
+    font-family: "Museo-Sans";
     
     text-transform: uppercase;
     text-decoration: none;
 }
 
 
-.linkbar>ul li a.menu-link{
+.NavMenuBar>ul li a.menu-link{
     color: rgb(255, 255, 255);
     padding-right:10px;
     padding-left:10px;
     border-right: 1px solid white;
 }
-.linkbar>ul li a.menu-link:hover{
+.NavMenuBar>ul li a.menu-link:hover{
    color:gray;
 }
 
-.linkbar>ul li a.menu-link-extra{
+.NavMenuBar>ul li a.menu-link-extra{
     
     text-decoration: none;
     text-transform: uppercase;
@@ -70,20 +73,27 @@
     color:#dfb625;
 }
 
-.linkbar>ul li a.menu-link-extra:hover{
+.NavMenuBar>ul li a.menu-link-extra:hover{
     
    color:#ae8f23;
 }
 
-.footer-menu{
+.NavMenuBar-7{
 height: 54px;
     background-color: #42484f;
     padding:0px;
     padding-bottom: 10px;
+
+    width: 100%;
+
     
 }
-.footer-menu .linkbar ul{
-    margin-left: 0px;
+.NavMenuBar-7 ul{
+    padding-top: 10px;
+    display: block;
+    width:990px;
+    float: none!important;
+    margin: auto;
 
 }
 
@@ -128,7 +138,7 @@ height: 54px;
     width: 208px;
     font-size: 25px;
     background: #6fbd44;
-    font-family: "League Gothic";
+    font-family: "League-Gothic";
     padding: 5px 10px 5px 10px;
     margin: auto;
     
@@ -141,7 +151,7 @@ height: 54px;
 .btncontainer .signupbtn span{
     
     font-size: 20px;
-    font-family: "League Gothic";
+    font-family: "League-Gothic";
     display: inline-block;
     padding: 5px 10px 5px 10px;
     color: rgb(242, 249, 252);
@@ -159,7 +169,7 @@ height: 54px;
     width: 250px;
     font-size: 25px;
     background: #31373c;
-    font-family: "League Gothic";
+    font-family: "League-Gothic";
     padding: 5px 10px 5px 10px;
     margin: auto;
     
@@ -171,7 +181,7 @@ height: 54px;
     font-size: 20px;
     display: inline-block;
     padding: 5px 10px 5px 10px;
-    font-family: "League Gothic";
+    font-family: "League-Gothic";
     color: rgb(242, 249, 252);
     text-transform: uppercase;
     
@@ -227,7 +237,7 @@ height: 54px;
     padding:5px;
     text-transform: uppercase;
     font-size: 15px;
-    font-family: "Museo Sans";
+    font-family: "Museo-Sans";
     color: rgb(68, 76, 84);
  
     
@@ -235,7 +245,7 @@ height: 54px;
 
 
 
-.feature-panel{
+.TwoColLayout{
     background-color: white;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -248,7 +258,7 @@ height: 54px;
     color: rgb(78, 83, 92);
     line-height: 1.421; 
 }
-.green-panel{
+.FourColLayout{
    
     background-color: #6fbd44;
     padding:10px;
@@ -260,25 +270,25 @@ height: 54px;
 }
 
 
-.green-panel .header{
+.FourColLayout .header{
     color:white;
     margin-top: 25px;
     margin-bottom: 10px;
     font-size: 18px;
     font-size: 22px;
-    font-family: "Museo Sans";
+    font-family: "Museo-Sans";
     color: rgb(255, 255, 255);
         
 }
 
-.green-panel .divider{
+.FourColLayout .divider{
     
     border-top:1px solid white;
     width:80%;
     
 }
 
-.green-panel .description{
+.FourColLayout .description{
 font-size: 19px;
   font-family: "Helvetica Neue";
   color: rgb(255, 255, 255);
@@ -316,7 +326,7 @@ font-size: 19px;
     font-size: 15px;
     
     
-    font-family: "Museo Sans";
+    font-family: "Museo-Sans";
    color: rgb(222, 225, 227);
     
 }
@@ -421,7 +431,7 @@ margin-top: 100px;
     padding: 10px;
     font-size: 25px;
     text-transform: uppercase;
-    font-family: "Museo Sans";
+    font-family: "Museo-Sans";
     color: rgb(49, 55, 60);
     
 
@@ -502,6 +512,7 @@ height:710px!important;
     display: inline;
     height:76px;
     width: 100%;
+    max-width: 1320px;;
     
     background: rgba(68, 95, 91, 0.8);
    
@@ -517,7 +528,7 @@ height:710px!important;
 
 .page-title span{
    font-size: 31px;
-  font-family: "Museo Sans";
+  font-family: "museo-sans", sans-serif;
   color: rgb(255, 255, 255); 
     text-transform: uppercase;
     
@@ -547,7 +558,7 @@ margin: auto;
     left:48px;
     display: inline-block;
     font-size: 110px;
-    font-family: "Museo Sans";
+    font-family: "Museo-Sans";
     font-weight: bold;
     color: rgb(255, 255, 255); 
     
@@ -556,7 +567,7 @@ margin: auto;
 
 .question-ans-left-panel .header {
   font-size: 22px;
-  font-family: "Museo Sans";
+  font-family: "Museo-Sans";
   color: rgb(111, 189, 68);
 }
 
@@ -589,7 +600,7 @@ display: inline;
     left:31px;
     display: inline-block;
     font-size: 75px;
-    font-family: "Museo Sans";
+    font-family: "Museo-Sans";
     font-weight: bold;
     color: #6fbd44; 
     
@@ -612,7 +623,7 @@ display: inline;
     left:22px;
     display: inline-block;
     font-size: 55px;
-  font-family: "Museo Sans";
+  font-family: "Museo-Sans";
   color: rgb(222, 225, 227);
     font-weight: bold;
     color: #dee1e3; 
