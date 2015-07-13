@@ -13,15 +13,14 @@ body{
     box-shadow: 0px 0px 56px 9px rgba(168,156,168,0.54);
 }
 .topheader{
-    min-height:  110px;
+    height: 110px;
     background-color: #31373c;
     top:0px;
-    padding-top: 20px;;
 
 }
 
 .logo{
-    
+    float: right;
     display: inline;
     margin-top: 18px;
     margin-right:20px;
@@ -29,9 +28,7 @@ body{
 .citylogo{
 
     display: inline;
-    margin-left: 0px;
-    margin-right: 40px;
-    background-color: #31373c;
+    margin-right: 70px;
 
 
 }
@@ -42,8 +39,8 @@ body{
 }
 
 
-.NavMenuBar-panel{
-    min-height: 60px;
+.NavMenuBar{
+    height: 54px;
     background: #42484f;
     padding: 0px;
     padding-top: 15px;
@@ -58,12 +55,12 @@ body{
     margin-right: 15px;
 
 }*/
-.NavMenuBar li{
+.NavMenuBar>ul li{
     display: inline;
 
 }
 
-.NavMenuBar li a {
+.NavMenuBar>ul li a {
 
     font-size: 14px;
     font-family: "Museo-Sans";
@@ -73,17 +70,17 @@ body{
 }
 
 
-.NavMenuBar li a.menu-link{
+.NavMenuBar>ul li a.menu-link{
     color: rgb(255, 255, 255);
     padding-right:10px;
     padding-left:10px;
     border-right: 1px solid white;
 }
-.NavMenuBar li a.menu-link:hover{
+.NavMenuBar>ul li a.menu-link:hover{
     color:gray;
 }
 
-.NavMenuBar li a.menu-link-extra{
+.NavMenuBar>ul li a.menu-link-extra{
 
     text-decoration: none;
     text-transform: uppercase;
@@ -92,7 +89,7 @@ body{
     color:#dfb625;
 }
 
-.NavMenuBar li a.menu-link-extra:hover{
+.NavMenuBar>ul li a.menu-link-extra:hover{
 
     color:#ae8f23;
 }
@@ -117,12 +114,11 @@ body{
 }
 
 .top-subscribebar-panel{
-   
+    height: 73px;
     width: 100%;
     background-color: #dee1e3;
     border-top:2px solid #868b8f;
-    padding-top: 10px;
-     padding-bottom: 10px;
+    padding-top: 15px;
 
 }
 
@@ -181,28 +177,27 @@ body{
 
 }
 
-.newsletterbtn{
+.btncontainer .newsletterbtn{
 
     position: relative;
-    left: 0px;
+    left: 5px;
     display: inline;
-    height: 40px;
-    width: 210px;
-    
+    height: 35px;
+    width: 250px;
+    font-size: 25px;
     background: #31373c;
     font-family: "League-Gothic";
-    
+    padding: 5px 10px 5px 10px;
     margin: auto;
 
 
 }
 
-.newsletterbtn span{
+.btncontainer .newsletterbtn span{
 
-    font-size: 25px;
-    padding: 5px 10px 5px 10px;
+    font-size: 20px;
     display: inline-block;
-    
+    padding: 5px 10px 5px 10px;
     font-family: "League-Gothic";
     color: rgb(242, 249, 252);
     text-transform: uppercase;
@@ -260,23 +255,6 @@ body{
 }
 
 
-#inputEmail{
-height: 40px;
-    border-top: 2px solid #5c6266;
-    border-bottom: 2px solid #5c6266;
-    border-left: 2px solid #31373c;
-    border-right: 2px solid #d3d6d9;
-
-    width: 100%;
-    background: #dee1e3;
-    text-transform: uppercase;
-    padding:5px;
-    font-size: 15px;
-    border-radius: initial;
-    
-    padding: 5px;
-}
-
 
 .subscribe-form form.news-letter-form input[type=submit] {
 
@@ -297,21 +275,6 @@ height: 40px;
     color: rgb(68, 76, 84);
 
 
-}
-
-#webform-client-form-14 input[type=submit] {
-    position: relative;
-    left:-5px;
-    border: none;
-    width: 80px;
-    height: 41px;
-    border-radius: none;
-    background: #a8a8a8;
-    padding: 5px;
-    text-transform: uppercase;
-    font-size: 15px;
-    font-family: "Museo-Sans";
-    color: rgb(68, 76, 84);
 }
 form.news-letter-form{
     display: inline;
@@ -471,54 +434,63 @@ form.news-letter-form input[type=submit]{
 }
 .footer-panel{
     background-color: #31373c;
+    padding:10px;
 
-
-    padding-top: 0px;
+    padding-top: 70px;
     padding-left: 30px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 
-
+.copy-right-statement{
+    font-size: 17px;
+    font-family: "Helvetica Neue";
+    color: rgb(222, 225, 227);
+    line-height: 1.421;
+    position: absolute;
+    top: 306px;
+}
 .footer-appeal{
 
-    position: relative;
+    position: absolute;
+    left: 216px;
     top: 40px;
-    margin-bottom: 50px;
 
 
 
 }
-.footer-appeal p{
-    font-size: 40px;
-    font-size:4.5vw;
+.footer-appeal h2{
+    font-size: 50px;
     font-family: "League-Gothic";
     color: rgb(223, 182, 37);
     font-style: italic;
     line-height: 1.421;
-   
+    -moz-transform: matrix( 2.675,0,0,2.08333333333333,0,0);
+    -webkit-transform: matrix( 2.675,0,0,2.08333333333333,0,0);
+    -ms-transform: matrix( 2.675,0,0,2.08333333333333,0,0);
+
+}
+.footer-appeal h2.line1{
+
+
+}
+.footer-appeal h2.line2{
+    position: relative;
+    left: 48px;
 
 }
 
-.footer-appeal p.line2{
-padding-left: 20px;
-}
 
-
-p.lblContact{
+.lblContact{
     color:#6fbd44;
     text-transform: uppercase;
-    font-size: 25px;
-    font-size:1.3vw;
+    font-size: 20pt;
+    padding: 10px;
     padding-top: 10px;
     font-weight: 500;
     font-style: normal;
 
 }
 
-.contact-us-wrapper{
-margin-top: 10px;
-    margin-bottom: 20px;
-}
 .contact-form input[type=text] {
 
     height: 50px;
@@ -581,15 +553,6 @@ margin-top: 10px;
     padding: 10px;
 
 
-}
-.copy-right-statement{
-    font-size: 17px;
-    font-family: "Helvetica Neue";
-    color: rgb(222, 225, 227);
-    line-height: 1.421;
-    position: relative;
-    margin-top: 50px;
-    
 }
 
 .confirm-msg{
@@ -868,6 +831,23 @@ div.carousel-inner:nth-of-type(1)>:nth-child(1)>div:nth-child(3){
 
 
 
+}
+
+.CC__Jackson_Fitness_and_Wellness_Center_—_The_n {
+    font-size: 15px;
+    font-family: "Museo Sans";
+    color: rgb(111, 189, 68);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 2.08333333333333,0,0,2.08333333333333,0,0);
+    -webkit-transform: matrix( 2.08333333333333,0,0,2.08333333333333,0,0);
+    -ms-transform: matrix( 2.08333333333333,0,0,2.08333333333333,0,0);
+    position: absolute;
+    left: 313.343px;
+    top: 1308.286px;
+    width: 391.014px;
+    height: 156.803px;
+    z-index: 32;
 }
 
 
